@@ -15,7 +15,7 @@ export async function fetchPictures(query, page) {
       per_page: 12,
     },
   });
-  console.log('responce', response);
+  console.log('responce', response.data);
 
   return response.data;
 }
